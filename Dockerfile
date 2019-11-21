@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:5.6.16
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.6.2
 
 COPY setup.bash /usr/share/elasticsearch/
 RUN bash /usr/share/elasticsearch/setup.bash
