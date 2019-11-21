@@ -1,7 +1,7 @@
 #!/bin/bash
 # Description: install and remove elasticsearch plugins
 
-set -eoux pipefail
+set -eox pipefail
 
 cmd=/usr/share/elasticsearch/bin/elasticsearch-plugin
 plugins=(repository-s3 repository-gcs https://github.com/vvanholl/elasticsearch-prometheus-exporter/releases/download/6.8.4.0/prometheus-exporter-6.8.4.0.zip)
